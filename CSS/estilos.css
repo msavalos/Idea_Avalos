@@ -1,0 +1,135 @@
+.body{
+    background-color: #FFB097;
+
+}
+.header{
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+.header__logo__img{
+    width: 100px;
+
+}
+.header__logo__texto{
+    color: black;
+    font-size: 20px;
+
+}
+.header__secciones{
+    text-align: center;
+
+}
+.menu{
+    display: inline-block;
+    width: 15%;
+    position: sticky;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+.footer{
+    background-color: white;
+    height: 30vh;
+}
+
+ul{
+    list-style: none;
+    
+}
+li{
+    font-size: 18px;
+    line-height: 1.6;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+h2{
+    color: black;
+    text-align: justify;
+}
+/* SECCIÓN INDEX*/
+.equipo{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+.img__equipo{
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+}
+
+/* SECCIÓN NOSOTROS*/
+.abogados{
+    height: 300px;
+}
+p{
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+/* SECCIÓN SERVICIOS*/
+
+
+
+
+/* SECCIÓN NOVEDADES*/
+#noticias{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: start;
+    justify-content: stretch;
+    align-items: center;
+}
+.noticia__uno{
+    justify-self: start;
+    align-self: center;
+}
+.noticia__dos{
+    justify-self: start;
+    align-self: center;
+}
+.noticia__tres{
+    justify-self: start;
+    align-self: center;
+}
+
+.novedades__previsional__img{
+    height: 300px;
+    width: 300px;
+}
+.novedades__previsional__texto{
+    width: 500px;
+}
+.novedades__penal__img{
+    height: 300px;
+    width: 300px;
+}
+.novedades__penal__texto{
+    width: 500px;
+}
+.novedades__civil__img{
+    height: 300px;
+    width: 300px;
+}
+.novedades__civil__texto{
+    width: 500px;
+}
+
+/* SECCIÓN CONSULTANOS*/
+.formulario{
+    display: flex;     
+    flex-direction: column; 
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
