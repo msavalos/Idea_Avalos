@@ -1,3 +1,4 @@
+$altura: 600px
 .body{
     background-color: #FFB097;
     font-family: 'Scheherazade New', serif;
@@ -91,7 +92,7 @@ h2{
 
 /* SECCIÓN NOSOTROS*/
 .abogados{
-    height: 300px;
+    height: $altura/2;
 }
 p{
     font-weight: normal;
