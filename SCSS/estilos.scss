@@ -1,3 +1,4 @@
+$letra__titulo: 25px; /* SECCION INDEX */
 $altura: 600px; /* SECCION NOSOTROS */
 $ancho: 500px; /* SECCION NOVEDADES */
 
@@ -84,7 +85,7 @@ h2{
 }
 #titulo__index{
     font-family: 'Birthstone', cursive;
-    font-size: 50px;
+    font-size: $letra__titulo*2;
 }
 .parrafo__index{
     font-weight: normal;
