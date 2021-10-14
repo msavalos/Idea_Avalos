@@ -1,4 +1,6 @@
-$altura: 600px
+$altura: 600px;
+$ancho: 500px;
+
 .body{
     background-color: #FFB097;
     font-family: 'Scheherazade New', serif;
@@ -160,21 +162,21 @@ p{
 
 .novedades__previsional__img{
     height: 250px;
-    width: 250px;
+    width: $ancho/2;
 }
 .novedades__previsional__texto{
     width: 400px;
 }
 .novedades__penal__img{
     height: 250px;
-    width: 250px;
+    width: $ancho/2;
 }
 .novedades__penal__texto{
     width: 400px;
 }
 .novedades__civil__img{
     height: 250px;
-    width: 250px;
+    width: $ancho/2;
 }
 .novedades__civil__texto{
     width: 400px;
